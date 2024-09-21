@@ -11,7 +11,7 @@ class Car{  // parent class
 
 class SportsCar extends Car{
 	constructor(make,model,topSpeed){
-		super(make,model,topSpeed)
+		super(make,model)
 		this.topSpeed=topSpeed;
 	}
 	getTopSpeed(){
