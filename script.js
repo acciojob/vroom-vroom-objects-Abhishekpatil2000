@@ -4,7 +4,7 @@ class Car{  // parent class
 		this.make=make;
 		this.model=model;
 	}
-  getmakemodel(){ 
+  get makemodel(){ 
 	  return `${this.make} ${this.model}`
   }
 }
@@ -14,14 +14,14 @@ class SportsCar extends Car{
 		super(make,model,topSpeed)
 		this.topSpeed=topSpeed;
 	}
-	getTopSpeed(){
+	get TopSpeed(){
 		return `${this.topSpeed}`
 	}
 }
 
 const Mclaren=new SportsCar("US","Gt","129kms");
-Mclaren.getMakeModel();
-Mclaren.getTopSpeed();
+Mclaren.getMakeModel;
+Mclaren.getTopSpeed;
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
