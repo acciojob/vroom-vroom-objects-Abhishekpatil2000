@@ -20,7 +20,7 @@ class SportsCar extends Car{
 	}
 }
 
-const Mclaren=new SportsCar("US","Gt","129kms");
+const Mclaren=new SportsCar("US","Gt",400);
 console.log(Mclaren.getmakeModel());
 console.log(Mclaren.getTopSpeed());
 // Do not change the code below
