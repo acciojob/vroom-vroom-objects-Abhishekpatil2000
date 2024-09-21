@@ -20,8 +20,8 @@ class SportsCar extends Car{
 }
 
 const Mclaren=new SportsCar("US","Gt","129kms");
-Mclaren.getMakeModel;
-Mclaren.getTopSpeed;
+Mclaren.MakeModel;
+Mclaren.TopSpeed;
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
